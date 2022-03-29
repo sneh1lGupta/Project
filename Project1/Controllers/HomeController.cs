@@ -20,6 +20,17 @@ namespace Project1.Controllers
             return View();
         }
 
+        public ActionResult LogIn() {
+            ViewBag.Message = "Login Page";
+
+            return View();
+        }
+
+        public ActionResult ThankYou() {
+            ViewBag.Message = "Thank You for Registering!";
+
+            return View();
+        }
  
     }
 }
